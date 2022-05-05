@@ -10,27 +10,26 @@
 </head>
 
 <body>
-    <script src="end.js"></script>
+
     <div class="header">
         <h1>Doctor Who Quiz</h1>
     </div>
     <div class="container">
-        <div id="highScores" class="justify-center flex-column">
-            <h1 id="finalScore">High Scores</h1>
+        <div id="highScores" class="flex-center flex-column">
+            <h1 id="highScoreHeading">High Scores</h1>
             <ul id="highScoresList"></ul>
         </div>
 
-        <div id="end" class="justify-center flex-column">
-            <h1 id="yourFinalScore">0</h1>
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
             <form>
                 <input type="text" name="username" id="username" placeholder="username">
                 <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)" disabled>Save</button>
             </form>
-            <a class="btn" href="DoctorQuiz.html">Play Again</a>
             <a class="btn" href="quiz.html">Home Page</a>
         </div>
     </div>
-
+    <script src="end2.js"></script>
 </body>
 
 </html>

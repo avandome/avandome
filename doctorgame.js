@@ -10,14 +10,6 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
-
-function buildImage(url) {
-    var img = new Image();
-    img.src = url;
-    return img;
-}
-
-
 let questions = [{
         question: "What was the strange food combination eaten by the 11th doctor ate after his regeneration?",
         choice1: "Prawns and banana",

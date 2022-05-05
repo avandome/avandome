@@ -133,11 +133,19 @@ input::placeholder {
     background-color: black;
 }
 
-#highScoreList {
+#highScoreHeading {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+#highScoresList {
     list-style: none;
     padding-left: 0;
     margin-bottom: 4rem;
     color: white;
+    background-color: black;
+    width: 100%;
 }
 
 .high-score {
